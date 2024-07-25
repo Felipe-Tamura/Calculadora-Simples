@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 2%;
+    width: 350px;
+    height: 500px;
+}
+
+footer{
+    margin-top: 10%;
+    padding: 10%;
+    background-color: #123;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    text-align:center;
+}
+
+.telas {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.tela_calc{
+    border: 1px solid #123;
+    height: 70px;
+}
+
+.tela_simbolo{
+    border: 1px solid red;
+    height: 20px;
+}
+
+.escondido{
+    display: none;
+}

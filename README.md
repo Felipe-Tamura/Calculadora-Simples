@@ -32,7 +32,7 @@ A calculadora também conta com uma lista de histórico das operações, ao clic
 Futuramente irei adicionar uma seção com um calculadora científica com operações mais complexas.
 
 ## Link para a calculadora
-[Calculadora Simples]()
+[Calculadora Simples](https://felipe-tamura.github.io/Calculadora-Simples/)
 
 ## Tecnologias Utilizadas
 

@@ -1,3 +1,4 @@
+/* Geral */
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,6 @@
 }
 
 main {
-    border: 1px solid red;
     margin: auto;
     margin-top: 2%;
     width: 350px;
@@ -22,23 +22,61 @@ footer{
     text-align:center;
 }
 
+/* Telas */
 .telas {
-    border: 1px solid green;
     display: flex;
     flex-direction: column-reverse;
-    width: 100%;
+    width: 350px;
 }
 
 .tela_calc{
     border: 1px solid #123;
-    height: 70px;
+    height: 50px;
+    font-size: 40px;
 }
 
 .tela_simbolo{
     border: 1px solid red;
-    height: 20px;
+    height: 50px;
+    font-size: 40px;
 }
 
 .escondido{
     display: none;
+}
+
+/* Teclados e teclas */
+.teclado-container{
+    border: solid 1px #123;
+    width: 350px;
+    height: 400px;
+    display: flex;
+}
+
+.teclado_principal{
+    display: flex;
+    width: 263px;
+    flex-direction: column;
+}
+
+.tecla{
+    font-size: 50px;
+    width: 87px;
+    border-radius: 5px;
+}
+
+.teclado_numerico{
+    border: 1px solid red;
+    width: 263px;
+}
+
+.teclado_limpar{
+    border: 1px solid cyan;
+    width: 263px;
+}
+
+.teclado_acao{
+    border: 1px solid pink;
+    height: 311px;
+    width: 87px;
 }

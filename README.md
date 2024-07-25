@@ -2,25 +2,25 @@
 
 ### Operações aritméticas simples
 
-* +
-* -
-* /
-* *
+- &#43;
+- &#8722;
+- &#247;
+- &#215;
 
 ### Botões de limpar o console:
 
-* 'CE' - para limpar o conteúdo do console.
-* 'C' - Para limpar as operações.
-* 'Backspace' - Para limpar o ultimo caractere.
+- CE - para limpar o conteúdo do console.
+- C - Para limpar as operações.
+- Backspace - Para limpar o ultimo caractere.
 
 ### Botão de =
 
->Este botão usa uma função para calcular as equações, a função 'eval()'
-que interpreta a string como código JavaScript e 'parseFloat()'
+>Este botão usa uma função para calcular as equações, a função `eval()`
+que interpreta a string como código JavaScript e `parseFloat()`
 para converter em número e não ocorrer riscos no código.
 
 >[!TIP]
->Para saber mais sobre riscos no código utilizando a função eval()
+>Para saber mais sobre riscos utilizando a função eval()
 diretamente em seu código acesse [mdn web_docs - eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 
 ### Histórico

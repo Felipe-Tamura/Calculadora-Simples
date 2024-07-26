@@ -1,82 +1,83 @@
 /* Geral */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 main {
-    margin: auto;
-    margin-top: 2%;
-    width: 350px;
-    height: 500px;
+  margin: auto;
+  margin-top: 2%;
+  width: 350px;
+  height: 500px;
+  display: flex;
 }
 
-footer{
-    margin-top: 10%;
-    padding: 10%;
-    background-color: #123;
-    color: #fff;
-    width: 100%;
-    height: 100px;
-    text-align:center;
+footer {
+  margin-top: 10%;
+  padding: 10%;
+  background-color: #123;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  text-align: center;
 }
 
 /* Telas */
 .telas {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 350px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 350px;
 }
 
-.tela_calc{
-    border: 1px solid #123;
-    height: 50px;
-    font-size: 40px;
+.tela_calc {
+  border: 1px solid #123;
+  height: 50px;
+  font-size: 40px;
 }
 
-.tela_simbolo{
-    border: 1px solid red;
-    height: 50px;
-    font-size: 40px;
+.tela_simbolo {
+  border: 1px solid red;
+  height: 50px;
+  font-size: 40px;
 }
 
-.escondido{
-    display: none;
+.escondido {
+  display: none;
 }
 
 /* Teclados e teclas */
-.teclado-container{
-    border: solid 1px #123;
-    width: 350px;
-    height: 400px;
-    display: flex;
+.teclado-container {
+  border: solid 1px #123;
+  width: 350px;
+  height: 400px;
+  display: flex;
 }
 
-.teclado_principal{
-    display: flex;
-    width: 263px;
-    flex-direction: column;
+.teclado_principal {
+  display: flex;
+  width: 263px;
+  flex-direction: column;
 }
 
-.tecla{
-    font-size: 50px;
-    width: 87px;
-    border-radius: 5px;
+.tecla {
+  font-size: 50px;
+  width: 87px;
+  border-radius: 5px;
 }
 
-.teclado_numerico{
-    border: 1px solid red;
-    width: 263px;
+.teclado_numerico {
+  width: 263px;
 }
 
-.teclado_limpar{
-    border: 1px solid cyan;
-    width: 263px;
+.teclado_limpar {
+  width: 263px;
 }
 
-.teclado_acao{
-    border: 1px solid pink;
-    height: 311px;
-    width: 87px;
+.teclado_acao {
+  margin-left: -2px;
+  height: 323px;
+  width: 87px;
 }
+
+/* Calculadora */

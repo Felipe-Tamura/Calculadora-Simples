@@ -1,54 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
-    <link rel="stylesheet" href="./static/css/style.css">
-</head>
+    <link rel="stylesheet" href="./static/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <main>
-        <section class="calculadora">
-            <section class="telas">
-                <!-- Tela da calculadora -->
-                <div class="tela_calc"></div>
-                <!-- Simbolo da ação -->
-                <div class="tela_simbolo"></div>
-            </section>
-            <section class="teclados">
-                <!-- Teclado -->
-                <div class="teclado-container">
-                    <div class="teclado_principal">
-                        <!-- Teclado Limpar -->
-                        <div class="teclado_limpar"></div>
-                        <!-- Teclado númerico -->
-                        <div class="teclado_numerico"></div>
-                    </div>
-                    <!-- Teclado de ações -->
-                    <div class="teclado_acao"></div>
-                </div>
-            </section>
-            <button type="button" class="btn_historico">H</button>
-            <div class="historico">
-                <table class="tabela_historico escondido">
-                    <thead>
-                        <tr>
-                            <th>Equação</th>
-                            <th>Resultado</th>
-                        </tr>
-                    </thead>
-                    <tbody class="linhas_historico"></tbody>
-                </table>
-            </div>
+      <section class="calculadora">
+        <section class="telas">
+          <!-- Tela da calculadora -->
+          <div class="tela_calc"></div>
+          <!-- Simbolo da ação -->
+          <div class="tela_simbolo"></div>
         </section>
+        <section class="teclados">
+          <!-- Teclado -->
+          <div class="teclado-container">
+            <div class="teclado_principal">
+              <!-- Teclado Limpar -->
+              <div class="teclado_limpar"></div>
+              <!-- Teclado númerico -->
+              <div class="teclado_numerico"></div>
+            </div>
+            <!-- Teclado de ações -->
+            <div class="teclado_acao"></div>
+          </div>
+        </section>
+      </section>
+      <section class="sessãoHistorico">
+        <button type="button" class="btn_historico">&#8230;</button>
+        <div class="historico">
+          <table class="tabela_historico escondido">
+            <thead>
+              <tr>
+                <th>Equação</th>
+                <th>Resultado</th>
+              </tr>
+            </thead>
+            <tbody class="linhas_historico"></tbody>
+          </table>
+        </div>
+      </section>
     </main>
-    
+
     <footer>
-        <a href="https://github.com/Felipe-Tamura" target="_blank" style="color: #fff;">&copy;Copyright 2024 Felipe Pereira Tamura</a>
+      <a
+        href="https://github.com/Felipe-Tamura"
+        target="_blank"
+        style="color: #fff"
+        >&copy;Copyright 2024 Felipe Pereira Tamura</a
+      >
     </footer>
     <script src="./static/js/script.js"></script>
-</body>
-
+  </body>
 </html>

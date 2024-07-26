@@ -1,4 +1,5 @@
 :root{
+  --background: #F2F7F2;
   /* Cores bases */
   --cor-um: #0d1b2a;
   --cor-dois: #1b263b;
@@ -14,6 +15,8 @@
   --botao-fonte-toggle: #d90429;
 }
 
+/* Responsividade a partirde widht: 430 enviar o historico para baixo */
+
 /* Geral */
 * {
   margin: 0;
@@ -21,30 +24,35 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: var(--background);
+}
+
 main {
   margin: auto;
   margin-top: 2%;
+
   width: 350px;
   height: 500px;
   display: flex;
 }
 
 footer {
-  margin-top: 3%;
-  padding: 4%;
-  background-color: var(--cor-tres);
-  color: #fff;
+  padding-top: 4%;
   width: 100%;
   height: 72px;
   text-align: center;
+}
+
+footer a{
+  color: var(--cor-um);
 }
 
 /* Telas */
 .telas {
   display: flex;
   flex-direction: column-reverse;
-  width: 350px;
-  background-color: var(--cor-cinco);
+  width: 348px;
   color: var(--cor-um);
 }
 
@@ -52,18 +60,24 @@ footer {
   border: 1px solid var(--cor-um);
   border-radius: 5px;
   height: 50px;
+
   font-size: 40px;
   text-align: right;
+
   box-shadow: inset 3px 3px 25px -12px var(--cor-um);
+  background-color: var(--cor-cinco);
 }
 
 .tela_simbolo {
   border: 1px solid var(--cor-um);
   border-radius: 5px;
   height: 50px;
+
   font-size: 40px;
   text-align: right;
+
   box-shadow: inset 3px 3px 25px -12px var(--cor-um);
+  background-color: var(--cor-cinco);
 }
 
 .escondido {
@@ -145,4 +159,18 @@ footer {
   color: var(--botao-fonte-toggle);
 }
 /* --------------------- */
+
+/* Calculadora */
+.calculadora {
+  background-color: var(--cor-tres);
+  padding: 2%;
+  height: 515px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* --------------------- */
+
+/* Historico */
+/* --------------------- */
+
 

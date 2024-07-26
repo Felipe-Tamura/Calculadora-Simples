@@ -29,7 +29,8 @@ diretamente em seu código acesse [mdn web_docs - eval()](https://developer.mozi
 
 ### Projeto futuro
 
->[!NOTE]Futuramente irei adicionar uma seção com um calculadora científica com operações mais complexas.
+>[!NOTE]
+>Futuramente irei adicionar uma seção com um calculadora científica com operações mais complexas.
 
 ## Link para a calculadora
 [Calculadora Simples](https://felipe-tamura.github.io/Calculadora-Simples/)

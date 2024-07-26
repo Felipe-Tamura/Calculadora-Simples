@@ -118,6 +118,7 @@ function calcular() {
      */
 
     try {
+        if(telaConsole.innerText == "") return // Evitando valores vazios na tabela e no console
         // Calculando operações
         telaOperacao.innerText += telaConsole.innerText;
         let resultado = eval(telaOperacao.innerText);

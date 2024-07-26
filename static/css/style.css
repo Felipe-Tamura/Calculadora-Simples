@@ -1,3 +1,19 @@
+:root{
+  /* Cores bases */
+  --cor-um: #0d1b2a;
+  --cor-dois: #1b263b;
+  --cor-tres: #415a77;
+  --cor-quatro: #778da9;
+  --cor-cinco: #e0e1dd;
+
+  /* Botões */
+  --botao-padrao: #2b2d42;
+  --botao-hover: #8d99ae;
+  --botao-active: #edf2f4;
+  --botao-fonte-padrao: #ef233c;
+  --botao-fonte-toggle: #d90429;
+}
+
 /* Geral */
 * {
   margin: 0;
@@ -32,14 +48,18 @@ footer {
 
 .tela_calc {
   border: 1px solid #123;
+  border-radius: 5px;
   height: 50px;
   font-size: 40px;
+  text-align: right;
 }
 
 .tela_simbolo {
   border: 1px solid red;
+  border-radius: 5px;
   height: 50px;
   font-size: 40px;
+  text-align: right;
 }
 
 .escondido {
@@ -48,7 +68,6 @@ footer {
 
 /* Teclados e teclas */
 .teclado-container {
-  border: solid 1px #123;
   width: 350px;
   height: 400px;
   display: flex;
@@ -63,21 +82,63 @@ footer {
 .tecla {
   font-size: 50px;
   width: 87px;
+  height: 80px;
   border-radius: 5px;
 }
 
+/* Teclado Numérico */
 .teclado_numerico {
   width: 263px;
 }
 
-.teclado_limpar {
-  width: 263px;
+.teclado_numerico button{
+  background-color: var(--botao-padrao);
+  color: var(--botao-fonte-padrao);
 }
 
+.teclado_numerico button:hover{
+  background-color: var(--botao-hover);
+  color: var(--botao-fonte-toggle);
+}
+
+.teclado_numerico button:active{
+  background-color: var(--botao-active);
+  color: var(--botao-fonte-toggle);
+}
+/* --------------------- */
+
+/* Teclado Limpar */
+.teclado_limpar {
+  width: 263px;
+  display: flex;
+}
+
+.teclado_limpar button{
+  background-color: var(--cor-quatro);
+  color: var(--botao-fonte-padrao);
+}
+
+.teclado_limpar button:active{
+  background-color: var(--botao-active);
+  color: var(--botao-fonte-toggle);
+}
+/* --------------------- */
+
+/* Teclado Ação */
 .teclado_acao {
   margin-left: -2px;
   height: 323px;
   width: 87px;
 }
 
-/* Calculadora */
+.teclado_acao button{
+  background-color: var(--cor-quatro);
+  color: var(--botao-fonte-padrao);
+}
+
+.teclado_acao button:active{
+  background-color: var(--botao-active);
+  color: var(--botao-fonte-toggle);
+}
+/* --------------------- */
+

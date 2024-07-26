@@ -2,16 +2,16 @@
 
 ### Operações aritméticas simples
 
-- &#43;
-- &#8722;
-- &#247;
-- &#215;
+>- &#43;
+>- &#8722;
+>- &#247;
+>- &#215;
 
 ### Botões de limpar o console:
 
-- CE - para limpar o conteúdo do console.
-- C - Para limpar as operações.
-- Backspace - Para limpar o ultimo caractere.
+>- CE - para limpar o conteúdo do console.
+>- C - Para limpar as operações.
+>- Backspace - Para limpar o ultimo caractere.
 
 ### Botão de =
 
@@ -25,20 +25,20 @@ diretamente em seu código acesse [mdn web_docs - eval()](https://developer.mozi
 
 ### Histórico
 
-A calculadora também conta com uma lista de histórico das operações, ao clicar no botão de histórico você consegue visualizar o histórico ou ocultar.
+>A calculadora também conta com uma lista de histórico das operações, ao clicar no botão de histórico você consegue visualizar o histórico ou ocultar.
 
 ### Projeto futuro
 
-Futuramente irei adicionar uma seção com um calculadora científica com operações mais complexas.
+>[!NOTE]Futuramente irei adicionar uma seção com um calculadora científica com operações mais complexas.
 
 ## Link para a calculadora
 [Calculadora Simples](https://felipe-tamura.github.io/Calculadora-Simples/)
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
+>- HTML5
+>- CSS3
+>- JavaScript
 
 [Licença MIT](https://opensource.org/licenses/MIT)
 
